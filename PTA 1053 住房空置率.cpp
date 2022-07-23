@@ -33,6 +33,6 @@ int main()
 			may_be_vacant++;
 	}
 	
-	printf("%.1f\%% %.1f%%", may_be_vacant * 100.0 / N, vacant * 100.0 / N);
+	printf("%.1f%% %.1f%%", may_be_vacant * 100.0 / N, vacant * 100.0 / N);
 	
 }
