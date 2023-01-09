@@ -1,0 +1,92 @@
+# Generated from CLion C/C++ Code Style settings
+# 基于LLVM的代码格式修改而来, 基本按照Java的代码格式进行格式化的
+# 修改时间: 2023/01/08
+
+Language: Cpp
+# 基于LLVM格式
+BasedOnStyle: LLVM
+# 使用支持的最新标准
+Standard: Latest
+
+AccessModifierOffset: -1
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: None
+AlignOperands: Align
+AllowAllArgumentsOnNextLine: false
+AllowAllConstructorInitializersOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: All
+# 允许短的if语句保持在同一行
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLambdasOnASingleLine: All
+# 允许短的循环保持在同一行
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: MultiLine
+# 大括号换行，只有当 BreakBeforeBraces 设置为 Custom 时才有效
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  # 循环 if语句等
+  AfterControlStatement: Never
+  AfterEnum: false
+  # 函数
+  AfterFunction: false
+  AfterNamespace: true
+  # 联合类型
+  AfterUnion: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: true
+
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+# 每行字符的限制，0表示没有限制
+ColumnLimit: 0
+CompactNamespaces: false
+ContinuationIndentWidth: 4
+IndentCaseLabels: false
+IndentPPDirectives: None
+# 缩进4个空格
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: true
+# 最大空行数
+MaxEmptyLinesToKeep: 13
+NamespaceIndentation: All
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: true
+# 指针和引用的对齐: Left, Right, Middle
+PointerAlignment: Left
+# 允许重新排版注释
+ReflowComments: true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+# 左圆括号之前添加一个空格: Never, ControlStatements, Always
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+# 在尾随的评论前添加的空格数(只适用于//)
+SpacesBeforeTrailingComments: 3
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+# 在圆括号的(后和)前添加空格
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 4
+# 使用tab字符, 可用参数: Never, ForIndentation, ForContinuationAndIndentation, Always
+UseTab: Never
+# 允许排序#include
+SortIncludes: true
