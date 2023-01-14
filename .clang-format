@@ -1,14 +1,14 @@
 # Generated from CLion C/C++ Code Style settings
-# 基于LLVM的代码格式修改而来, 基本按照Java的代码格式进行格式化的
-# 修改时间: 2023/01/08
+#基于LLVM的代码格式修改而来, 基本按照Java的代码格式进行格式化的
+# 修改时间: 2023/01/14
 
 Language: Cpp
 # 基于LLVM格式
 BasedOnStyle: LLVM
 # 使用支持的最新标准
 Standard: Latest
-
-AccessModifierOffset: -1
+# 控制诸如public等关键词的缩进
+AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: None
 AlignOperands: Align
